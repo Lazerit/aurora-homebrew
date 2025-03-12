@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Monk</name>
+		<description>Monk Class from Player's Handbook 2024</description>
+		<update version="0.0.1">
+			<file name="class-monk.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/class-monk.xml" />
+		</update>
+	</info>
 	<element name="Monk" type="Class" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_CLASS_MONK">
 		<description>
 			<h4>A Martial Artist of Supernatural Focus</h4>

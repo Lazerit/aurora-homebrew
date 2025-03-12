@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Goliath</name>
+		<description>Goliath Race from 2024 Player's Handbook</description>
+		<update version="0.0.1">
+			<file name="race-goliath.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/race-goliath.xml" />
+		</update>
+	</info>
 	<element name="Goliath" type="Race" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_RACE_GOLIATH">
 		<description>
 			<p>Towering over most folk, goliaths are distant descendants of giants. Each goliath bears the favors of the first giants-favors that manifest in various supernatural boons, including the ability to quickly grow and temporarily approach the height of goliaths' gigantic kin.</p>

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <name>Proficiencies</name>
+        <description>Proficiencies from 2024 Player's Handbook</description>
+        <update version="0.0.1">
+            <file name="proficiencies.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/proficiencies.xml" />
+        </update>
+    </info>
     <element name="Weapon Proficiency (Light Martial)" type="Proficiency" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_PROFICIENCY_WEAPON_MARTIAL_LIGHT">
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR"/>

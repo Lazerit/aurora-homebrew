@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Warrior of the Open Hand</name>
+		<description>Warrior of the Open Hand subclass from 2024 Player's Handbook</description>
+		<update version="0.0.1">
+			<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/monk-open-hand.xml" />
+		</update>
+	</info>
 	<element name="Warrior of the Open Hand" type="Archetype" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_SUBCLASS_WARRIOR_OF_THE_OPEN_HAND">
 		<supports>Monk Subclass</supports>
 		<description>

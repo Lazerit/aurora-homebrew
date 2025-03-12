@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Feats</name>
+		<description>Feats from Player's Hadbook 2024</description>
+		<update version="0.0.1">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/feats.xml" />
+		</update>
+	</info>
 	<!--Magic Initiate-->
 	<element name="Magic Initiate (Druid)" type="Feat" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_FEAT_MAGIC_INITIATE_DRUID">
 		<description>

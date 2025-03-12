@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Guide</name>
+		<description>Guide Background from Player's Handbook 2024</description>
+		<update version="0.0.1">
+			<file name="background-guide.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/background-guide.xml" />
+		</update>
+	</info>
 	<element name="Guide" type="Background" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_BACKGROUND_GUIDE">
 		<description>
 			<p>You came of age outdoors, far from settled lands. Your home was anywhere you chose to spread your bedroll. There are wonders in the wilderness — strange monsters, pristine forests and streams, overgrown ruins of great halls once trod by giants — and you learned to fend for yourself as you explored them. From time to time, you guided friendly nature priests who instructed you in the fundamentals of channeling the magic of the wild.</p>
