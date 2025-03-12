@@ -14,6 +14,6 @@
 		<file name="feats.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/feats.xml" />
 		<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/monk-open-hand.xml" />
 		<file name="proficiencies.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/proficiencies.xml" />
-		<file name="race-goliat.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/race-goliat.xml" />
+		<file name="race-goliat.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/race-goliath.xml" />
 	</files>
 </index>
