@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Weapon Proficiency (Light Martial)" type="Proficiency" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_PROFICIENCY_WEAPON_MARTIAL_LIGHT">
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND"/>
+        </rules>
+    </element>
+</elements>

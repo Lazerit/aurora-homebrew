@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<!--Magic Initiate-->
+	<element name="Magic Initiate (Druid)" type="Feat" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_FEAT_MAGIC_INITIATE_DRUID">
+		<description>
+			<p>You learn two cantrips of your choice from the druid spell list.</p>
+			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+			<p class="indent">Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
+			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
+		</description>
+		<rules>
+			<select type="Feat Feature" name="Magic Initiate Spellcasting Ability" supports="Magic Initiate Spellcasting Ability"/>
+			<select type="Spell" name="Cantrip (Magic Initate)" supports="0,Druid" number="2" spellcasting="Magic Initiate"/>
+			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Druid" spellcasting="Magic Initiate"/>
+		</rules>
+	</element>
+	<element name="Intelligence" type="Feat Feature" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_FEAT_MAGIC_INITIATE_ABILITY_INTELLIGENCE">
+		<supports>Magic Initiate Spellcasting Ability</supports>
+		<sheet>
+			<description>Spellcasting ability: Intelligence</description>
+		</sheet>
+		<spellcasting name="Magic Initiate" ability="Intelligence" extend="true" />
+	</element>
+	<element name="Wisdom" type="Feat Feature" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_FEAT_MAGIC_INITIATE_ABILITY_WISDOM">
+		<supports>Magic Initiate Spellcasting Ability</supports>
+		<sheet>
+			<description>Spellcasting ability: Wisdom</description>
+		</sheet>
+		<spellcasting name="Magic Initiate" ability="Wisdom" extend="true" />
+	</element>
+	<element name="Charisma" type="Feat Feature" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_FEAT_MAGIC_INITIATE_ABILITY_CHARISMA">
+		<supports>Magic Initiate Spellcasting Ability</supports>
+		<sheet>
+			<description>Spellcasting ability: Charisma</description>
+		</sheet>
+		<spellcasting name="Magic Initiate" ability="Charisma" extend="true" />
+	</element>
+	<!--/Magic Initiate-->
+</elements>

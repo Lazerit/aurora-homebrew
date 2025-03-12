@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Guide" type="Background" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_BACKGROUND_GUIDE">
+		<description>
+			<p>You came of age outdoors, far from settled lands. Your home was anywhere you chose to spread your bedroll. There are wonders in the wilderness — strange monsters, pristine forests and streams, overgrown ruins of great halls once trod by giants — and you learned to fend for yourself as you explored them. From time to time, you guided friendly nature priests who instructed you in the fundamentals of channeling the magic of the wild.</p>
+			<ul class="unstyled">
+				<li><strong>Ability Scores:</strong> Dexterity, Constitution, Wisdom</li>
+				<li><strong>Feat:</strong> Magic Initiate (Druid)</li>
+				<li><strong>Skill Proficiencies:</strong> Stealth, Survival</li>
+				<li><strong>Tool Proficiencies:</strong> Cartographer's Tools</li>
+				<li><strong>Equipment:</strong><i> Choose (A) or (B)</i>
+					<ul>
+						<li>(A) Shortbow, 20 Arrows, Cartographer's Tools, Bedroll, Quiver, Tent, Traveler's Cloth es, 3 GP</li>
+						<li>(B) 50 GP</li>
+					</ul>
+				</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="short">DEX, CON, WIS; Stealth, Survival; Magic Initiate (Druid)</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS" />
+			<grant type="Feat" id="ID_WOTC_24_PHB_FEAT_MAGIC_INITIATE_DRUID" />
+			<select name="Ability Score Improvement (Guide)" type="Ability Score Improvement" number="3" supports="Guide Improvement Options" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+			<select type="Language" name="Language (Background)" number="2" supports="Standard||Exotic"/>
+		</rules>
+	</element>
+
+	<element name="Dexterity" type="Ability Score Improvement" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_BACKGROUND_GUIDE_DEX_1">
+		<compendium display="false" />
+		<supports>Guide Improvement Options</supports>
+		<rules>
+			<stat name = "dexterity" value = "1" alt="Guide"/>
+		</rules>
+	</element>
+	<element name="Dexterity" type="Ability Score Improvement" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_BACKGROUND_GUIDE_DEX_2">
+		<compendium display="false" />
+		<supports>Guide Improvement Options</supports>
+		<rules>
+			<stat name = "dexterity" value = "1" alt="Guide"/>
+		</rules>
+	</element>
+	<element name="Constitution" type="Ability Score Improvement" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_BACKGROUND_GUIDE_CON_1">
+		<compendium display="false" />
+		<supports>Guide Improvement Options</supports>
+		<rules>
+			<stat name = "constitution" value = "1" alt="Guide"/>
+		</rules>
+	</element>
+	<element name="Constitution" type="Ability Score Improvement" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_BACKGROUND_GUIDE_CON_2">
+		<compendium display="false" />
+		<supports>Guide Improvement Options</supports>
+		<rules>
+			<stat name = "constitution" value = "1" alt="Guide"/>
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_BACKGROUND_GUIDE_WIS_1">
+		<compendium display="false" />
+		<supports>Guide Improvement Options</supports>
+		<rules>
+			<stat name = "wisdom" value = "1" alt="Guide"/>
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_BACKGROUND_GUIDE_WIS_2">
+		<compendium display="false" />
+		<supports>Guide Improvement Options</supports>
+		<rules>
+			<stat name = "wisdom" value = "1" alt="Guide"/>
+		</rules>
+	</element>
+</elements>
