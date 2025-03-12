@@ -5,15 +5,15 @@
 		<description>Parts of 2024 Player's Handbook</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="2024-phb.index" url="" />
+			<file name="2024-phb.index" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024.index" />
 		</update>
 	</info>
 	<files>
-		<file name="background-guide.xml" url="" />
-		<file name="class-monk.xml" url="" />
-		<file name="feats.xml" url="" />
-		<file name="monk-open-hand.xml" url="" />
-		<file name="proficiencies.xml" url="" />
-		<file name="race-goliat.xml" url="" />
+		<file name="background-guide.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/background-guide.xml" />
+		<file name="class-monk.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/class-monk.xml" />
+		<file name="feats.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/feats.xml" />
+		<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/monk-open-hand.xml" />
+		<file name="proficiencies.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/proficiencies.xml" />
+		<file name="race-goliat.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/race-goliat.xml" />
 	</files>
 </index>

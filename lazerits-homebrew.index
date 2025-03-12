@@ -5,10 +5,10 @@
 		<description>Content created/implemented in Aurora Builder by @Lazerit</description>
 		<author url="https://github.com/Lazerit">@Lazerit</author>
 		<update version="0.0.1">
-			<file name="lazerits-homebrew.index" url="" />
+			<file name="lazerits-homebrew.index" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/lazerits-homebrew.index" />
 		</update>
 	</info>
 	<files>
-		<file name="phb-2024.index" url="" />
+		<file name="phb-2024.index" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024.index" />
 	</files>
 </index>
