@@ -3,7 +3,7 @@
 	<info>
 		<name>Goliath</name>
 		<description>Goliath Race from 2024 Player's Handbook</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="race-goliath.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/race-goliath.xml" />
 		</update>
 	</info>
@@ -116,15 +116,12 @@
 		</sheet>
 	</element>
 
-
 	<element name="Large Form" type="Racial Trait" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_RACIAL_TRAIT_GOLIATH_LARGE_FORM">
 		<description>
 			<p>Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.</p>
 		</description>
-		<sheet action = "Reaction" usage="1/Long Rest">
-			<description>
-				You can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet.
-			</description>
+		<sheet action = "Bonus Action" usage="1/Long Rest">
+			<description>You can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet.</description>
 		</sheet>
 	</element>
 	<element name="Powerful Build" type="Racial Trait" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_RACIAL_TRAIT_GOLIATH_POWERFUL_BUILD">
@@ -132,9 +129,7 @@
 			<p>You have Advantage on any saving throw you make to end the Grapled condition. You also count as one size larger when determininyour carrying capacity.</p>
 		</description>
 		<sheet>
-			<description>
-				You have Advantage on any saving throw you make to end the Grapled condition. You also count as one size larger when determininyour carrying capacity.
-			</description>
+			<description>You have Advantage on any saving throw you make to end the Grapled condition. You also count as one size larger when determininyour carrying capacity.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />

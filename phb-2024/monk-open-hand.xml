@@ -3,7 +3,7 @@
 	<info>
 		<name>Warrior of the Open Hand</name>
 		<description>Warrior of the Open Hand subclass from 2024 Player's Handbook</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/monk-open-hand.xml" />
 		</update>
 	</info>
@@ -41,8 +41,10 @@
 			</ul>
 		</description>
 		<sheet>
-			<description>Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target: 
-				It can't make Opportunity Attacks until the end of your next turn, Push 15 feet STR Save, Knock Prone DEX Save.</description>
+			<description>Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:&#13;
+				It can't make Opportunity Attacks until the end of your next turn&#13;
+				Push 15 feet STR Save&#13;
+				Knock Prone DEX Save.</description>
 		</sheet>
 	</element>
 
@@ -78,7 +80,7 @@
 			<p class="indent">You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required).</p>
 		</description>
 		<sheet action="Attack" usage="4 Focus">
-			<description>When you hit a creature with an Unarmed Strike, you can expend 4 Focus Points to start lethal imperceptible vibrations in its body, which last for {{monk:level}} days. The vibrations are harmless unless you take an action to end them. When you take the Attack action on your turn, you can forgo one of the attack to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.
+			<description>When you hit a creature with an Unarmed Strike, you can expend 4 Focus Points to start lethal imperceptible vibrations in its body, which last for {{monk:level}} days. The vibrations are harmless unless you take an action to end them. When you take the Attack action on your turn, you can forgo one of the attack to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.&#13;
 				You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required).</description>
 		</sheet>
 	</element>
