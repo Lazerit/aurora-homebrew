@@ -3,7 +3,7 @@
 	<info>
 		<name>Monk</name>
 		<description>Monk Class from Player's Handbook 2024</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="class-monk.xml" url="https://raw.githubusercontent.com/Lazerit/aurora-homebrew/main/phb-2024/class-monk.xml" />
 		</update>
 	</info>
