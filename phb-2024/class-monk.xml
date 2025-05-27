@@ -414,9 +414,9 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Class Feature" id="" />
-			<grant type="Class Feature" id="" />
-			<grant type="Class Feature" id="" />
+			<grant type="Class Feature" id="ID_WOTC_24_PHB_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS_FLURRY_OF_BLOWS" />
+			<grant type="Class Feature" id="ID_WOTC_24_PHB_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS_PATIENT_DEFENSE" />
+			<grant type="Class Feature" id="ID_WOTC_24_PHB_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS_STEP_OF_THE_WIND" />
 		</rules>
 	</element>
 	<element name="Heightened Flurry of Blows" type="Class Feature" source="2024 Player's Handbook" id="ID_WOTC_24_PHB_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS_FLURRY_OF_BLOWS">
